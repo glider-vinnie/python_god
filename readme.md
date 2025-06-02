@@ -98,3 +98,26 @@ You can return a range of characters by using the slice syntax.
 Specify the start index and the end index, separated by a colon, to return a part of the string.
 b = "Hello, World!"
 print(b[2:5])
+
+<h3>Boolean Values</h3>
+In programming you often need to know if an expression is True or False.
+You can evaluate any expression in Python, and get one of two answers, True or False.
+When you compare two values, the expression is evaluated and Python returns the Boolean answer.
+
+<h3>Operators</h3>
+Python divides the operators in the following groups:
+1. Arithmetic operators +,-,*,/,**,//,%
+2. Assignment operators =,+=,/=,-=,*=,//=,**=,%=,&=,|=,^=,>>=,<<=,:=
+3. Comparison operators ==,!=,<,>,<=,>=
+4. Logical operators and,or,not
+5. Identity operators is,is not
+6. Membership operators in, not in
+7. Bitwise operators &,|,^,~,<<,>>
+<h4>order precedence: PEMDAS</h4>
+
+<h2>List</h2>
+Lists are used to store multiple items in a single variable.
+Lists are one of 4 built-in data types in Python used to store collections of data, the other 3 are Tuple, Set, and Dictionary, all with different qualities and usage.
+<h5>creating a list</h5>
+* use []
+* use list() keyword
